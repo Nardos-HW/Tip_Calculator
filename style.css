@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+#container {
+  background-color: white;
+  max-width: 600px;
+  margin: 100px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Montserrat;
+  margin-top: 0;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+button {
+  background-color: #4caf50;
+  font-weight: bold;
+  color: white;
+  padding: 8px;
+  width: 100%;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  transition: background_color 0.2s ease;
+  font-family: Bitcount Grid Single;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#total {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+}
